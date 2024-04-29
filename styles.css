@@ -1,0 +1,333 @@
+.navbar-brand.logo {
+    width: 250px; /* Ancho deseado del icono */
+    height: 100px; /* Alto deseado del icono */
+    background-image: url('img/logo.jpeg'); /* Ruta de la imagen */
+    background-size: cover; /* Para que la imagen se ajuste al tamaño del contenedor */
+  }
+
+/* Estilos para navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-start, .navbar-end {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-end img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.redes-sociales {
+    flex: 1;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.contacto {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.contacto h3 {
+    margin-bottom: 10px;
+}
+
+.contacto form input,
+.contacto form textarea,
+.contacto form button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contacto form button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contacto form button:hover {
+    background-color: #777;
+}
+
+.derechos {
+    flex: 1;
+    text-align: right;
+}
+
+.derechos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.derechos ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.derechos ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos chat en vivo*/ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .chat-box {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .message {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+   /* Estilos galeria*/
+   .galeria-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.galeria-imagenes .col-md-4 {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.galeria-imagenes .col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria-imagenes .col-md-4 img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos guia*/
+.guia-estilos {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.guia-estilos h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.guia-estilos p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.guia-estilos .boton-estilo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.guia-estilos .boton-estilo:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos tipos de mader (costum)*/
+.kitchen-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.tipos-madera {
+    margin-top: 50px;
+}
+
+.tipos-madera h3 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tipo-madera {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tipo-madera img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.tipo-madera h4 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.tipo-madera p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.tipo-madera .boton-ver-mas {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tipo-madera .boton-ver-mas:hover {
+    background-color: #0056b3;
+}
+/* Estilos personalizados para el carrusel y su contenido */
+
+/* Estilo para el carrusel */
+#carouselGuiaEstilos {
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes del carrusel */
+#carouselGuiaEstilos img {
+    max-height: 300px; /* Altura máxima para las imágenes */
+    width: auto; /* Ancho automático para mantener la proporción */
+}
+
+/* Estilo para el contenido a la par del carrusel */
+.guia-estilos .col-md-6 {
+    padding: 0 15px; /* Espaciado interno */
+}
+
+/* Estilo para el texto del contenido */
+.guia-estilos p {
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo para la lista de consejos */
+.guia-estilos ul {
+    padding-left: 20px; /* Sangría izquierda para la lista */
+}
+
+/* Estilo para el botón */
+.guia-estilos button.btn-primary {
+    margin-top: 20px; /* Espaciado superior */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+/*Estilo para iniciar_sesión.html*/
+/* Estilos personalizados */
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+#loginForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el botón de inicio de sesión */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para el mensaje de error */
+#errorMessage {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Estilo para el icono de usuario en la barra de navegación */
+.navbar-nav .fa-user {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Estilo para el icono de usuario en la vista de administración */
+#adminView .fa-user {
+    font-size: 40px;
+    color: #007bff;
+}
